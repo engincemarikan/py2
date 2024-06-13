@@ -17,6 +17,8 @@ for i in range(len(Points)):
 
 min_distance = min(distances)
 
+print(distances)
+
 print("Noktalar arasındaki minimum Öklid mesafesi:", min_distance)
 
 
