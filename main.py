@@ -13,7 +13,11 @@ for i in range(len(Points)):
         distance = euclideanDistance(x1,y1,x2,y2)
         distances.append(distance)
 
-print(distances)
+
+
+min_distance = min(distances)
+
+print("Noktalar arasındaki minimum Öklid mesafesi:", min_distance)
 
 
 
